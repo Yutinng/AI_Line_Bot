@@ -5,7 +5,8 @@
             "src": "app.py",
             "use": "@vercel/python",
             "config": {
-                "buildCommand": "pip install --no-cache-dir ta-lib-binary"
+                "runtime": "python3.9",
+                "buildCommand": "pip install --no-cache-dir -r requirements.txt"
             }
         }
     ],
