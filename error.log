@@ -1,0 +1,30 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:app:Received request body: {"destination":"U216216e234561422e8b2630023bfa9d0","events":[]}
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2025 20:04:44] "POST /callback HTTP/1.1" 200 -
+INFO:app:Received request body: {"destination":"U216216e234561422e8b2630023bfa9d0","events":[{"type":"message","message":{"type":"text","id":"549276996354441457","quoteToken":"TeqamNvyG96-b6MOr8oouljjdIQJ_Z4TRuk85UsDLBDd6NoPvoSe31RnU4vYo8DgvAkhPhmrrb5MgxxlRfCVvMOEPq4RtzhahMtkIRVdRo4vw0S4m1IrY0ACqf2ktWRyAPIecO9QjVrWcs3bZ1u7ww","text":"¬d¸ß¤µ¤é¤ä¥X"},"webhookEventId":"01JMPRR21Z3SAW55YYW9YF7B23","deliveryContext":{"isRedelivery":false},"timestamp":1740225906522,"source":{"type":"user","userId":"Ube3ac6240a8a4543452d802bed7ab01a"},"replyToken":"9d31bd50be3d4cada9c4fe0002ff3290","mode":"active"}]}
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2025 20:05:06] "POST /callback HTTP/1.1" 200 -
+INFO:app:Received request body: {"destination":"U216216e234561422e8b2630023bfa9d0","events":[{"type":"message","message":{"type":"text","id":"549277013567865010","quoteToken":"UIU43Bv_VdJCNR5BAZmbMC_Z4y66Ngiz5mEFUfuMtfiYhFDjduwCUZIN8-bjwsH1krlXUDJ_9uXqAAfhdSb5hOcrFBdjumh-vqfuQbnOaUbrI7ryPL2295-85ovqQuTktUWqBeJr5kBrOZUxGca5Vg","text":"·s»D"},"webhookEventId":"01JMPRRCEDJABG4DDF08QS3T8D","deliveryContext":{"isRedelivery":false},"timestamp":1740225916883,"source":{"type":"user","userId":"Ube3ac6240a8a4543452d802bed7ab01a"},"replyToken":"25c6b5a0a8044361a3f8eab8ba0733fc","mode":"active"}]}
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache C:\Users\t5566\AppData\Local\Temp\jieba.cache
+DEBUG:jieba:Loading model cost 0.407 seconds.
+DEBUG:jieba:Prefix dict has been built successfully.
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2025 20:05:20] "POST /callback HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:app:Received request body: {"destination":"U216216e234561422e8b2630023bfa9d0","events":[{"type":"message","message":{"type":"text","id":"549278442567238185","quoteToken":"m43-6UK-rFYN-8obELtdRjMe_yuFpVzSmctF78VxwzMJhkPSWsBYxSzL5g6JuAAT-6vhADoAz4qFDhznapqNv-6rG1Hnb4sBLf8TYUP2TmHT43wp10Vd4p1Dvcc_6ng7Jy070gDx38uKk_T9NtYuRQ","text":"¬d¸ß¥»¤ë¦¬¤J"},"webhookEventId":"01JMPSJC4NPEBC3X50FFW8DMJM","deliveryContext":{"isRedelivery":false},"timestamp":1740226768537,"source":{"type":"user","userId":"Ube3ac6240a8a4543452d802bed7ab01a"},"replyToken":"f254f7de38c44a4b80f9f9c1acfa2352","mode":"active"}]}
+INFO:werkzeug:127.0.0.1 - - [22/Feb/2025 20:19:28] "POST /callback HTTP/1.1" 200 -
