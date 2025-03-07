@@ -22,3 +22,4 @@ tensorflow==2.18.0
 twstock==1.4.0
 wordcloud==1.9.4
 yfinance==0.2.54
+gunicorn

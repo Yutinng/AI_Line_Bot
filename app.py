@@ -684,7 +684,8 @@ def handle_postback(event):
 
 if __name__ == "__main__":
     app.run(
-        debug=True,    # 啟用除錯模式
-        host="0.0.0.0", # 設定 0.0.0.0 會對外開放
-        port=5000       # 啟用 port 號
+        debug=True,  
+        host="0.0.0.0",  
+        port=int(os.environ.get("PORT", 5000))  # 取得環境變數 PORT，預設 5000
     )
+
