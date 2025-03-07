@@ -14,7 +14,7 @@ opencv_contrib_python==4.11.0.86
 opencv_python==4.11.0.86
 pandas==2.2.3
 Pillow==11.1.0
-protobuf==6.30.0
+protobuf>=3.20.2,<5
 pymongo==4.11.2
 requests==2.32.3
 scikit_learn==1.6.1
