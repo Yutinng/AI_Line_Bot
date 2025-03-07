@@ -42,7 +42,7 @@ google-generativeai==0.8.4
 google-pasta==0.2.0
 googleapis-common-protos==1.69.0
 grpcio==1.71.0rc2
-grpcio-status==1.71.0rc2
+grpcio-status==1.59.0
 h11==0.14.0
 h5py==3.13.0
 httpcore==1.0.7
@@ -94,7 +94,7 @@ prettytable==3.15.1
 prompt_toolkit==3.0.50
 propcache==0.2.1
 proto-plus==1.26.0
-protobuf==5.29.3
+protobuf>=4.25.3,<5
 pure_eval==0.2.3
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
