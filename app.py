@@ -49,15 +49,14 @@ from quick_reply import expense_quickReply, stock_quickReply, image_quickReply
 from handlers.breed_classifier import predict_breed  
 from handlers.chat import chat_with_bard 
 
-from config import line_handler, configuration, CWA_TOKEN, user_state
-
 app = Flask(__name__)
 
 configuration = Configuration(access_token=os.getenv('ACCESS_TOKEN'))
 line_handler = WebhookHandler(os.getenv('CHANNEL_SECRET'))
 api_client = ApiClient(configuration)  
 line_bot_api = MessagingApi(api_client) 
-
+CWA_TOKEN = os.getenv('CWA_TOKEN')
+user_state = {}
 
 @app.route("/callback", methods=['POST'])
 def callback():

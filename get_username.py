@@ -1,8 +1,10 @@
 """
 取得使用者 LINE 名稱
 """
-from linebot.v3.messaging import ApiClient, MessagingApi
-from config import ACCESS_TOKEN, configuration  # 確保你有正確的 Token 和 configuration
+import os
+from linebot.v3.messaging import ApiClient, MessagingApi, Configuration
+
+configuration = Configuration(access_token=os.getenv('ACCESS_TOKEN'))
 
 def get_line_username(user_id):
     """
