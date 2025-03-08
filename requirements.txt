@@ -23,4 +23,4 @@ twstock==1.4.0
 wordcloud==1.9.4
 yfinance==0.2.54
 mediapipe==0.10.21
-
+lxml==4.9.3
