@@ -1,24 +1,16 @@
 {
     "version": 2,
-    "functions": {
-        "app.py": {
-            "runtime": "@vercel/python@3.10"
+    "builds": [
+        {
+            "src": "app.py",
+            "use": "@vercel/python"
         }
-    },
+    ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/.*",
             "dest": "app.py"
         }
     ],
-    "regions": ["hkg1"],
-    "env": {
-        "PYTHON_VERSION": "3.10"
-    },
-    "build": {
-        "env": {
-            "PIP_NO_CACHE_DIR": "1"
-        }
-    },
-    "installCommand": "pip install --upgrade pip setuptools && pip install --no-cache-dir -r requirements.txt"
+    "regions": ["hkg1"]
 }
